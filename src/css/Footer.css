@@ -1,0 +1,15 @@
+.footer {
+    background-color: black;
+    height: 5vh;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+span {
+    color: rgb(248, 208, 31);
+    padding: 0px 10px;
+}

@@ -1,0 +1,214 @@
+.homeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+  background-color: rgb(2, 4, 27);
+}
+
+.formWrapper {
+  background-color: rgb(30, 29, 62);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0px 0xp 20px azure;
+  /* border: 10px solid rgb(228, 228, 0); */
+}
+
+.formWrapper>img {
+  margin: 20px auto;
+  width: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px yellow;
+}
+
+.homePageLogo {
+  /* border: 2px solid red; */
+  margin: 4px auto;
+}
+
+.inputGroup {
+  padding: 10px;
+}
+
+.inputGroup>input {
+  margin: 10px auto;
+  width: 80%;
+
+}
+
+.inputGroup>input:focus {
+  background: transparent;
+  border: 2px solid yellow;
+  color: yellow;
+}
+
+footer {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  color: azure;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+footer a {
+  color: yellow;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.homePageLogo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn,
+.leaveBtn {
+  background: yellow;
+  width: 100px;
+  margin: 10px auto;
+  transition-duration: 100ms;
+
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+  background: rgb(208, 208, 6);
+  box-sizing: 0px 0px 10px yellow;
+  transform: scale(1.1);
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createBtn {
+  color: yellow;
+  text-decoration: none;
+  border-bottom: 1px solid yellow;
+  transition: all 0.3s ease-in-out;
+}
+
+.createBtn:hover,
+footer a:hover {
+  color: rgb(208, 208, 6);
+  border-color: rgb(208, 208, 6);
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside {
+  background-color: rgb(2, 4, 27);
+  padding: 16px;
+  border-right: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  color: yellow;
+}
+
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid yellow;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImage {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+.footHeading {
+  color: yellow;
+}
+
+@media(max-width:786px) {
+  .mainWrap {
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  .aside {
+    width: 30vw;
+    margin-right: 0;
+  }
+
+}

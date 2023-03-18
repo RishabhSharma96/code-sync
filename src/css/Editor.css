@@ -1,0 +1,14 @@
+.editorBox {
+    min-height: 95vh;
+    background-color: rgb(15, 6, 32);
+    color: azure;
+    border-left: 2px solid rgb(248, 208, 31);
+    padding: 10px;
+}
+
+.CodeMirror {
+    min-height: 90vh;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 1.6;
+}
