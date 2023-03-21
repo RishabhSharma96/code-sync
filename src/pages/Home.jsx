@@ -4,6 +4,7 @@ import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 import logo from '../assets/logo.png'
 import { motion } from "framer-motion"
+import "../css/Home.css"
 
 const Home = () => {
     const navigate = useNavigate();
