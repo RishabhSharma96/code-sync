@@ -81,6 +81,10 @@ button:hover {
     padding: 0px 10px;
 }
 
+.homeWrapper{
+    overflow: hidden;
+}
+
 
 @media(max-width:786px) {
     input {
@@ -93,5 +97,9 @@ button:hover {
 
     img {
         width: 50%;
+    }
+    .formWrapper{
+        width: 16rem;
+        height:25rem;
     }
 }
